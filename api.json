@@ -1,10 +1,8 @@
 {
-  "category": "PSYCHIC_PHENOMENA",
-
   "meta": {
     "version": "1.0.0",
     "schema_version": "1.0.0",
-    "last_updated": "2026-01-14",
+    "last_updated": "2026-02-13",
     "repository": "https://github.com/wyrdness/possession",
     "maintainers": [
       {
@@ -18,455 +16,111 @@
       "content": "CC-BY-4.0"
     }
   },
-
   "phenomenon": {
     "id": "possession",
     "name": "Possession",
-    "aliases": [
-      {
-        "name": "Demonic Possession",
-        "region": "Christian tradition",
-        "meaning": "Possession by demons or evil spirits"
-      },
-      {
-        "name": "Spirit Possession",
-        "region": "Various cultures",
-        "meaning": "General possession by spirits"
-      },
-      {
-        "name": "Jinn Possession",
-        "region": "Islamic tradition",
-        "meaning": "Possession by jinn (supernatural beings)"
-      }
-    ],
+    "aliases": [],
     "category": "PSYCHIC_PHENOMENA",
-    "subcategory": "Spirit/Demon Interaction",
+    "subcategory": "Involuntary/Voluntary (varies)",
     "tags": [
-      "spirits",
-      "demons",
-      "mental-health",
-      "religion",
-      "exorcism",
-      "cultural-syndrome",
-      "dissociation",
-      "psychology"
+      "folklore",
+      "mythology"
     ],
-    "status": "active",
+    "status": "documented",
     "description": {
-      "summary": "Belief that spirits or demons can inhabit and control human bodies, manifesting as personality changes, speaking unknown languages (glossolalia), superhuman strength, and aversion to sacred objects.",
-      "full": "Possession is the belief that spirits, demons, or other entities can inhabit and control human bodies. Characteristics include dramatic personality changes, speaking unknown languages (glossolalia or xenoglossy), superhuman strength, knowledge of hidden things, convulsions, and aversion to sacred objects. Types vary by culture: demonic possession (Christian), spirit possession (various cultures), and voluntary possession (shamanic traditions). Famous cases include Anneliese Michel (1976, Germany) and Roland Doe (1949, inspiration for 'The Exorcist'). Theories range from genuine spiritual possession (religious view) to mental illness explanations including dissociative identity disorder (DID), schizophrenia, epilepsy, and cultural syndrome. Scientific consensus attributes symptoms to psychiatric conditions, though possession remains an active religious belief worldwide requiring cultural sensitivity."
+      "summary": "Possession is the belief that spirits, demons, or other entities can inhabit and control human bodies.",
+      "full": "Possession is the belief that spirits, demons, or other entities can inhabit and control human bodies. Manifestations include dramatic personality changes, speaking unknown languages (glossolalia), superhuman strength, knowledge of hidden things, convulsions, and aversion to sacred objects."
     },
     "etymology": {
-      "origin": "From Latin 'possessio' meaning 'to occupy or hold'",
-      "meaning": "Being inhabited or controlled by external spirit/entity",
-      "first_use": "Ancient, present in cultures worldwide"
+      "origin": "Unknown",
+      "meaning": "To be documented",
+      "first_use": "Unknown"
     }
   },
-
   "classification": {
     "taxonomy": {
       "category": "PSYCHIC_PHENOMENA",
-      "type": "Spirit/Demon Interaction",
-      "subtype": "Involuntary/Voluntary (varies by tradition)",
-      "variant": "Cultural-specific manifestations"
+      "type": "Involuntary/Voluntary (varies)",
+      "subtype": "Unknown",
+      "variant": "Unknown"
     },
-    "related_phenomena": [
-      {
-        "id": "demons",
-        "name": "Demons",
-        "relationship": "claimed_cause",
-        "description": "Entities allegedly causing possession"
-      },
-      {
-        "id": "exorcism",
-        "name": "Exorcism",
-        "relationship": "treatment",
-        "description": "Religious ritual to expel possessing entities"
-      },
-      {
-        "id": "succubus-incubus",
-        "name": "Succubus/Incubus",
-        "relationship": "related",
-        "description": "Demonic entities that interact with humans"
-      }
-    ]
+    "related_phenomena": []
   },
-
   "characteristics": {
-    "symptoms": [
-      {
-        "symptom": "Personality change",
-        "description": "Dramatic shift in behavior, voice, mannerisms",
-        "frequency": "Very common",
-        "medical_correlation": "Dissociative identity disorder, psychosis"
-      },
-      {
-        "symptom": "Glossolalia",
-        "description": "Speaking in tongues or unknown languages",
-        "frequency": "Common",
-        "medical_correlation": "Known psychological phenomenon, occurs in religious ecstasy"
-      },
-      {
-        "symptom": "Superhuman strength",
-        "description": "Claimed increased physical power",
-        "frequency": "Common (reported)",
-        "medical_correlation": "Adrenaline response, hysterical strength, exaggeration"
-      },
-      {
-        "symptom": "Aversion to sacred objects",
-        "description": "Negative reaction to religious symbols, holy water, prayers",
-        "frequency": "Common in religious contexts",
-        "medical_correlation": "Learned behavior, cultural expectation, suggestion"
-      },
-      {
-        "symptom": "Knowledge of hidden things",
-        "description": "Claiming knowledge person shouldn't have",
-        "frequency": "Occasional",
-        "medical_correlation": "Cold reading, lucky guesses, exaggeration, memory"
-      },
-      {
-        "symptom": "Convulsions",
-        "description": "Seizure-like movements",
-        "frequency": "Common",
-        "medical_correlation": "Epilepsy, psychogenic seizures"
-      },
-      {
-        "symptom": "Self-harm",
-        "description": "Injuring oneself",
-        "frequency": "Occasional",
-        "medical_correlation": "Self-injurious behavior in mental illness"
-      },
-      {
-        "symptom": "Blasphemy",
-        "description": "Speaking against religious figures",
-        "frequency": "Common in religious contexts",
-        "medical_correlation": "Psychological resistance, learned behavior"
-      }
-    ],
-    "types": [
-      {
-        "type": "Demonic Possession (Christian)",
-        "description": "Involuntary possession by demons; considered evil",
-        "cultural_context": "Christianity",
-        "treatment": "Exorcism by authorized religious figure"
-      },
-      {
-        "type": "Spirit Possession (General)",
-        "description": "Various spirits possess individuals; may be ancestors, nature spirits, etc.",
-        "cultural_context": "Various cultures worldwide",
-        "treatment": "Varies by culture; may include rituals, offerings, shamanic intervention"
-      },
-      {
-        "type": "Voluntary Possession (Shamanic)",
-        "description": "Intentional possession by spirits for healing, prophecy, or ritual purposes",
-        "cultural_context": "Shamanic traditions, Vodou, Umbanda, others",
-        "treatment": "Not needed; possession is controlled and ends naturally"
-      },
-      {
-        "type": "Jinn Possession (Islamic)",
-        "description": "Possession by jinn (supernatural beings in Islamic tradition)",
-        "cultural_context": "Islamic cultures",
-        "treatment": "Ruqya (Islamic exorcism ritual)"
-      }
-    ]
+    "physical": {
+      "features": [],
+      "morphology": "See README.md for detailed physical description"
+    },
+    "abilities": [],
+    "behavior": {
+      "activity_period": "unknown",
+      "disposition": "unknown",
+      "habitat_preference": []
+    }
   },
-
   "distribution": {
     "range": {
-      "description": "Worldwide phenomenon with culture-specific manifestations",
-      "continents": ["Global"],
-      "concentration": "Higher prevalence in cultures with strong possession beliefs"
+      "description": "Unknown",
+      "continents": [],
+      "countries": [],
+      "regions": []
     },
-    "cultural_variations": [
-      {
-        "culture": "Christian (particularly Catholic)",
-        "belief": "Demonic possession requiring exorcism",
-        "prevalence": "Rare officially recognized cases"
-      },
-      {
-        "culture": "Islamic",
-        "belief": "Jinn possession treated with ruqya",
-        "prevalence": "Commonly recognized in some regions"
-      },
-      {
-        "culture": "Hindu",
-        "belief": "Bhuta (ghost) or graha (planetary) possession",
-        "prevalence": "Varies by region"
-      },
-      {
-        "culture": "Vodou/Vodun",
-        "belief": "Loa (spirits) mount/ride practitioners (voluntary)",
-        "prevalence": "Regular ritual practice"
-      },
-      {
-        "culture": "Various African traditions",
-        "belief": "Ancestor or spirit possession",
-        "prevalence": "Culturally integrated"
-      }
-    ],
+    "hotspots": [],
     "temporal": {
       "first_recorded": {
-        "date": "Ancient",
+        "date": "Unknown",
         "circa": true,
-        "source": "Present in earliest religious texts worldwide"
-      },
-      "historical_prevalence": "Constant throughout history, interpretation varies by culture and era"
+        "source": "Traditional folklore"
+      }
     }
   },
-
   "history": {
     "origins": {
-      "cultural_roots": "Ancient belief present in virtually all cultures; documented in earliest religious texts including Bible, Qur'an, Hindu scriptures",
-      "earliest_accounts": "Biblical accounts of Jesus performing exorcisms; ancient Mesopotamian texts; worldwide indigenous traditions",
-      "folklore_connections": "Connected to broader beliefs about spirits, souls, and supernatural influence"
+      "cultural_roots": "Unknown",
+      "earliest_accounts": "See README.md for historical details",
+      "folklore_connections": "Unknown"
     },
-    "timeline": [
-      {
-        "date": "Ancient",
-        "event": "Biblical exorcisms by Jesus",
-        "significance": "Foundational accounts in Christian tradition",
-        "source": "New Testament Gospels"
-      },
-      {
-        "date": "1614",
-        "event": "Roman Ritual codified",
-        "significance": "Catholic Church formalizes exorcism procedures",
-        "source": "Rituale Romanum"
-      },
-      {
-        "date": "1949",
-        "event": "Roland Doe case",
-        "significance": "Inspired novel and film 'The Exorcist'",
-        "source": "Case documentation, later revealed"
-      },
-      {
-        "date": "1973",
-        "event": "'The Exorcist' film released",
-        "significance": "Massive cultural impact, increased possession reports",
-        "source": "Film release"
-      },
-      {
-        "date": "1975-1976",
-        "event": "Anneliese Michel case",
-        "significance": "German woman died during exorcism; criminal trial followed",
-        "source": "Court records, media coverage"
-      },
-      {
-        "date": "1999",
-        "event": "Vatican updates exorcism ritual",
-        "significance": "Revises procedures while maintaining practice",
-        "source": "De Exorcismis et Supplicationibus Quibusdam"
-      }
-    ],
-    "modern_era": "Possession beliefs remain strong in many cultures. Catholic Church continues to train exorcists; Protestant deliverance ministries active; Islamic ruqya widely practiced. Medical community treats as psychiatric conditions. Cultural sensitivity increasingly recognized in mental health care."
+    "timeline": []
   },
-
-  "famous_cases": {
-    "notable": [
-      {
-        "id": "possession-anneliese-michel",
-        "name": "Anneliese Michel",
-        "date": {
-          "value": "1975-1976",
-          "precision": "period"
-        },
-        "location": {
-          "description": "Klingenberg, Bavaria",
-          "country": "Germany"
-        },
-        "description": "German woman underwent 67 exorcism sessions over 10 months. Died of malnutrition and dehydration. Priests and parents charged with negligent homicide. Medical records showed epilepsy and psychiatric conditions.",
-        "outcome": "Death; criminal convictions",
-        "credibility": {
-          "rating": "tragic_case",
-          "factors": ["Medical diagnosis ignored", "Death during exorcism", "Criminal trial"],
-          "notes": "Demonstrates dangers of treating psychiatric conditions as possession"
-        },
-        "sources": [
-          "Court records",
-          "Goodman, F. (2005). The Exorcism of Anneliese Michel"
-        ],
-        "featured": true
-      },
-      {
-        "id": "possession-roland-doe",
-        "name": "Roland Doe (pseudonym)",
-        "date": {
-          "value": "1949",
-          "precision": "year"
-        },
-        "location": {
-          "description": "St. Louis area",
-          "country": "United States",
-          "region": "Missouri"
-        },
-        "description": "14-year-old boy allegedly possessed; underwent Catholic exorcism ritual. Case inspired William Peter Blatty's novel 'The Exorcist.' Later investigations suggest psychiatric issues and possible hoax elements.",
-        "outcome": "Claimed successful exorcism; individual lived normal life",
-        "credibility": {
-          "rating": "disputed",
-          "factors": ["Later skeptical investigation", "Possible hoax elements", "Psychiatric explanations available"],
-          "notes": "Cultural impact significant despite questionable details"
-        },
-        "sources": [
-          "Opsasnick, M. (1999). Strange Magazine investigation",
-          "Original diary entries from attending priest"
-        ],
-        "featured": true
-      }
-    ]
+  "sightings": {
+    "statistics": {
+      "total_documented": 0,
+      "verified": 0,
+      "disputed": 0,
+      "debunked": 0
+    },
+    "notable": [],
+    "database_path": "./sightings/"
   },
-
   "evidence": {
-    "physical": [
-      {
-        "type": "none",
-        "description": "No physical evidence of actual spirit/demon possession; all evidence is behavioral and subjective"
-      }
-    ],
-    "medical": [
-      {
-        "type": "psychiatric diagnoses",
-        "description": "Medical evaluations consistently find psychiatric conditions in alleged possession cases",
-        "conditions": [
-          "Dissociative Identity Disorder (DID)",
-          "Schizophrenia",
-          "Epilepsy (particularly temporal lobe)",
-          "Psychogenic non-epileptic seizures",
-          "Tourette syndrome",
-          "Bipolar disorder with psychotic features"
-        ]
-      }
-    ]
+    "physical": [],
+    "photographic": [],
+    "video": [],
+    "audio": [],
+    "trace": []
   },
-
   "theories": {
-    "religious": [
-      {
-        "name": "Genuine Demonic/Spirit Possession",
-        "description": "Actual demons or spirits inhabit and control human bodies",
-        "proponents": ["Religious authorities in various traditions", "Exorcists", "Believers"],
-        "evidence_cited": ["Religious texts", "Eyewitness accounts", "Successful exorcisms", "Unexplained knowledge or strength"]
-      }
-    ],
-    "scientific": [
-      {
-        "name": "Dissociative Identity Disorder (DID)",
-        "description": "Multiple personality states; alters may be perceived as possessing entities",
-        "proponents": ["Psychiatrists", "Psychologists"],
-        "evidence_cited": ["Clinical diagnosis", "Response to psychotherapy", "Correlation with trauma history"]
-      },
-      {
-        "name": "Schizophrenia and Psychotic Disorders",
-        "description": "Hallucinations and delusions interpreted as possession",
-        "proponents": ["Psychiatrists"],
-        "evidence_cited": ["Response to antipsychotic medication", "Brain imaging studies", "Genetic factors"]
-      },
-      {
-        "name": "Temporal Lobe Epilepsy",
-        "description": "Seizures causing altered consciousness, personality changes, religious experiences",
-        "proponents": ["Neurologists"],
-        "evidence_cited": ["EEG abnormalities", "Response to anticonvulsants", "Known symptoms match possession"]
-      },
-      {
-        "name": "Cultural Syndrome",
-        "description": "Culture-bound syndrome; symptoms shaped by cultural expectations and beliefs",
-        "proponents": ["Anthropologists", "Cross-cultural psychiatrists"],
-        "evidence_cited": ["Symptoms vary by culture", "Higher prevalence in cultures with possession beliefs", "Social context shapes manifestation"]
-      },
-      {
-        "name": "Suggestion and Social Contagion",
-        "description": "Symptoms arise from suggestion, expectation, and social influence",
-        "proponents": ["Psychologists", "Sociologists"],
-        "evidence_cited": ["Possession epidemics", "Symptoms match cultural expectations", "Power of suggestion well-documented"]
-      }
-    ]
+    "paranormal": [],
+    "scientific": [],
+    "skeptical": []
   },
-
   "cultural": {
-    "religious_practices": {
-      "sensitivity_note": "⚠️ CULTURAL SENSITIVITY: Possession is an active religious belief in multiple traditions worldwide. Approach with respect while acknowledging medical perspectives.",
-      "practices": [
-        {
-          "tradition": "Catholic Christianity",
-          "procedure": "Exorcism by authorized priest with bishop permission",
-          "requirements": "Psychiatric evaluation first, evidence of genuine possession",
-          "status": "Active; Church trains exorcists"
-        },
-        {
-          "tradition": "Protestant Christianity",
-          "procedure": "Deliverance ministries; varies by denomination",
-          "requirements": "Varies widely",
-          "status": "Active in some denominations"
-        },
-        {
-          "tradition": "Islam",
-          "procedure": "Ruqya (recitation of Qur'an, prayers)",
-          "requirements": "Performed by knowledgeable person",
-          "status": "Widely practiced"
-        },
-        {
-          "tradition": "Hinduism",
-          "procedure": "Various rituals depending on region and tradition",
-          "requirements": "Varies",
-          "status": "Active in traditional contexts"
-        },
-        {
-          "tradition": "Vodou/Vodun",
-          "procedure": "Voluntary possession is normal ritual practice; involuntary treated differently",
-          "requirements": "Initiated practitioners",
-          "status": "Central to practice"
-        }
-      ]
+    "folklore": {
+      "traditions": [],
+      "stories": [],
+      "beliefs": "See README.md for cultural context"
     },
     "popular_culture": {
-      "film_tv": [
-        "The Exorcist (1973) - Landmark horror film",
-        "The Exorcism of Emily Rose (2005) - Based on Anneliese Michel",
-        "The Conjuring series (2013-present) - Multiple possession cases",
-        "Supernatural TV series - Frequent possession themes"
-      ],
-      "impact": "Films have significantly influenced public perception and increased possession reports"
+      "literature": [],
+      "film_tv": [],
+      "games": [],
+      "other": []
     }
   },
-
   "research": {
-    "medical_perspective": {
-      "consensus": "Symptoms attributed to possession are explained by psychiatric and neurological conditions",
-      "standard_treatment": "Psychiatric evaluation and treatment; medication and psychotherapy",
-      "cultural_competence": "Recognition that possession beliefs may be culturally important; respectful integration of cultural and medical approaches when possible"
-    },
-    "dangers": {
-      "deaths": "Multiple deaths during exorcisms documented (Anneliese Michel, others)",
-      "delayed_treatment": "Treating psychiatric conditions as possession delays proper medical care",
-      "physical_harm": "Restraint, abuse, neglect during exorcism rituals",
-      "psychological_harm": "Reinforcing belief in possession can worsen mental health"
-    }
+    "researchers": [],
+    "organizations": [],
+    "ongoing_studies": "None documented"
   },
-
-  "sources": [
-    {
-      "id": "goodman-2005",
-      "type": "book",
-      "title": "The Exorcism of Anneliese Michel",
-      "authors": ["Felicitas Goodman"],
-      "publication": "Wipf & Stock",
-      "date": "2005",
-      "isbn": "978-1597527187"
-    },
-    {
-      "id": "blatty-1971",
-      "type": "book",
-      "title": "The Exorcist",
-      "authors": ["William Peter Blatty"],
-      "publication": "Harper & Row",
-      "date": "1971"
-    },
-    {
-      "id": "bourguignon-1976",
-      "type": "book",
-      "title": "Possession",
-      "authors": ["Erika Bourguignon"],
-      "publication": "Chandler & Sharp",
-      "date": "1976"
-    }
-  ]
+  "sources": []
 }
