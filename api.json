@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "1.0.0",
+    "version": "1.1.0",
     "schema_version": "1.0.0",
-    "last_updated": "2026-02-13",
+    "last_updated": "2026-05-07",
     "repository": "https://github.com/wyrdness/possession",
     "maintainers": [
       {
@@ -16,111 +16,365 @@
       "content": "CC-BY-4.0"
     }
   },
+
   "phenomenon": {
     "id": "possession",
     "name": "Possession",
-    "aliases": [],
-    "category": "PSYCHIC_PHENOMENA",
-    "subcategory": "Involuntary/Voluntary (varies)",
-    "tags": [
-      "folklore",
-      "mythology"
+    "aliases": [
+      { "name": "Spirit possession", "language": "English" },
+      { "name": "Demonic possession", "language": "English", "meaning": "Possession by a malevolent spirit, in Christian and Islamic frameworks" },
+      { "name": "Dybbuk possession", "language": "Yiddish/Hebrew", "region": "Jewish tradition", "meaning": "Possession by a disembodied human soul" },
+      { "name": "Jinn possession (mass al-jinn)", "language": "Arabic", "region": "Islamic world" },
+      { "name": "Trance possession / spirit mediumship", "region": "African and Afro-diasporic traditions" }
     ],
-    "status": "documented",
+    "category": "PSYCHIC_PHENOMENA",
+    "subcategory": "Altered state of consciousness attributed to external agency",
+    "tags": [
+      "spirit",
+      "demon",
+      "exorcism",
+      "trance",
+      "altered-state",
+      "religion",
+      "cross-cultural",
+      "ritual",
+      "psychiatry"
+    ],
+    "status": "active",
     "description": {
-      "summary": "Possession is the belief that spirits, demons, or other entities can inhabit and control human bodies.",
-      "full": "Possession is the belief that spirits, demons, or other entities can inhabit and control human bodies. Manifestations include dramatic personality changes, speaking unknown languages (glossolalia), superhuman strength, knowledge of hidden things, convulsions, and aversion to sacred objects."
+      "summary": "Possession is the cross-cultural belief and reported experience that a human body and its functions can be controlled by an external agent — a spirit, ghost, demon, deity, or ancestor — producing dramatic changes in voice, behavior, language, and apparent identity. It is documented in 74% of 488 societies surveyed in a 1969 NIMH cross-cultural study.",
+      "full": "Possession is an altered state of consciousness, and the associated behaviors, that practitioners and witnesses attribute to the takeover of a human body by spirits, ghosts, demons, deities, or ancestors. Anthropologist Erika Bourguignon's landmark 1969 NIMH-supported cross-cultural survey identified beliefs in possession in 74% of 488 societies sampled, with the highest prevalence in the Pacific and the lowest among Native American societies. Traditions vary widely: in many African, Afro-diasporic, Hindu, and Pacific contexts possession is sought, ritualized, and integrated with healing or worship; in Christianity and much of Islam it is regarded as an unwanted attack to be addressed through exorcism; in the Jewish kabbalistic tradition the dybbuk is a disembodied soul to be expelled. Notable cases include the witch trials at Loudun (1632–1638), the Salem witch trials (1692), the Watseka Wonder (Lurancy Vennum, 1877–1878), the Roland Doe case (1949) that inspired The Exorcist, and the death of Anneliese Michel (1976) following a Catholic exorcism. Modern psychiatric frameworks classify many possession experiences under the dissociative disorders: the DSM-5 includes 'dissociative trance' and 'possession-form dissociative identity disorder' presentations, while the ICD treats possession trance as a distinct diagnosis when culturally non-normative and distressing."
     },
     "etymology": {
-      "origin": "Unknown",
-      "meaning": "To be documented",
-      "first_use": "Unknown"
+      "origin": "Latin possessio ('a holding, occupation') via Anglo-Norman; in religious contexts 'possession' translates a range of vernacular and scriptural terms (Greek daimonizesthai 'to be demonized', Hebrew dybbuk 'attachment', Arabic mass al-jinn 'touching of jinn').",
+      "meaning": "A holding, occupation, or control of a person by an outside agent",
+      "first_use": "Medieval Latin Christian usage; English religious texts from the 14th century onwards"
     }
   },
+
   "classification": {
     "taxonomy": {
       "category": "PSYCHIC_PHENOMENA",
-      "type": "Involuntary/Voluntary (varies)",
-      "subtype": "Unknown",
-      "variant": "Unknown"
+      "type": "Altered state / spirit-attribution phenomenon",
+      "subtype": "Possession trance",
+      "variant": "Cross-cultural"
     },
-    "related_phenomena": []
+    "related_phenomena": [
+      { "id": "exorcism", "name": "Exorcism", "relationship": "related", "description": "Ritual response to possession across multiple religious traditions" },
+      { "id": "spirit-mediumship", "name": "Spirit mediumship", "relationship": "similar", "description": "Voluntary, ritually framed possession in Spiritualist, Afro-diasporic, and other contexts" },
+      { "id": "dissociative-identity-disorder", "name": "Dissociative identity disorder", "relationship": "related", "description": "Psychiatric framework that overlaps with possession-form presentations" },
+      { "id": "jinn", "name": "Jinn", "relationship": "related", "description": "Islamic spirit category implicated in possession (mass al-jinn)" },
+      { "id": "dybbuk", "name": "Dybbuk", "relationship": "subset", "description": "Possession by a disembodied human soul in Jewish tradition" }
+    ]
   },
+
   "characteristics": {
     "physical": {
-      "features": [],
-      "morphology": "See README.md for detailed physical description"
+      "features": [
+        { "feature": "Altered voice", "description": "Voice changes in pitch, accent, or language during episodes", "frequency": "common" },
+        { "feature": "Convulsive or rigid motor activity", "description": "Reports of writhing, contortion, or extreme rigidity during possession states", "frequency": "common" },
+        { "feature": "Apparent xenoglossy", "description": "Speaking in a language the host has not learned (claimed in many traditions; rarely substantiated under controlled conditions)", "frequency": "occasional" },
+        { "feature": "Anomalous strength or insensitivity to pain", "description": "Reports of strength or pain tolerance beyond the host's baseline", "frequency": "occasional" }
+      ],
+      "morphology": "Possession is a behavioral and experiential phenomenon; the host body remains anatomically unchanged, but motor, vocal, and personality presentations alter dramatically during episodes."
     },
-    "abilities": [],
+    "abilities": [
+      { "ability": "Personality switching", "description": "Emergence of a distinct identity claiming to be the possessing agent", "frequency": "always", "evidence_level": "documented" },
+      { "ability": "Glossolalia / xenoglossy claims", "description": "Speech in apparently unknown or unintelligible languages", "frequency": "occasional", "evidence_level": "reported" },
+      { "ability": "Prophetic or oracular utterance", "description": "In ritual mediumship, the possessing entity is consulted for guidance", "frequency": "common", "evidence_level": "folklore" },
+      { "ability": "Reaction to sacred objects", "description": "In demonic-possession framings, aversive reaction to crosses, holy water, or Qur'anic recitation", "frequency": "common", "evidence_level": "folklore" }
+    ],
     "behavior": {
-      "activity_period": "unknown",
-      "disposition": "unknown",
-      "habitat_preference": []
+      "activity_period": "variable",
+      "disposition": "variable",
+      "social_structure": "variable",
+      "habitat_preference": ["ritual contexts", "domestic settings", "shrines and temples", "religious institutions"],
+      "diet": "Not applicable",
+      "patterns": [
+        "Onset can be sudden or gradual",
+        "Episodes often occur in ritual or stress contexts",
+        "Cultures distinguish welcome (ritual) from unwelcome (demonic) possession",
+        "Treatment frameworks range from exorcism to therapy and psychiatric care"
+      ]
     }
   },
+
   "distribution": {
     "range": {
-      "description": "Unknown",
-      "continents": [],
+      "description": "Beliefs in and reports of possession are found in the great majority of human societies. Bourguignon's 1969 cross-cultural survey identified some form of possession belief in 74% of 488 societies, with highest prevalence in the Pacific and lowest among Native American societies.",
+      "continents": ["Africa", "Asia", "Europe", "North America", "South America", "Oceania"],
       "countries": [],
-      "regions": []
+      "regions": [
+        "Pacific (highest documented prevalence)",
+        "Sub-Saharan Africa",
+        "South Asia",
+        "Middle East and North Africa",
+        "Latin America and the Caribbean",
+        "Europe (historical Christian cases)"
+      ]
     },
     "hotspots": [],
     "temporal": {
       "first_recorded": {
-        "date": "Unknown",
+        "date": "Antiquity",
         "circa": true,
-        "source": "Traditional folklore"
-      }
+        "source": "Mesopotamian, Egyptian, Greek, and Hebrew Bible records of possession-like states"
+      },
+      "peak_activity_periods": [
+        { "period": "1632–1638", "description": "Loudun possessions in France (Ursuline convent, Urbain Grandier executed 1634)" },
+        { "period": "1692", "description": "Salem witch trials in Massachusetts framed in part by alleged possession of accusers" },
+        { "period": "1949", "description": "Roland Doe case (Maryland and Missouri); inspiration for The Exorcist (1971)" },
+        { "period": "1976", "description": "Death of Anneliese Michel in Bavaria following 67 Catholic exorcism sessions; criminal conviction of priests and parents for negligent manslaughter" }
+      ],
+      "seasonal_patterns": "No consistent seasonal pattern; episodes cluster around ritual calendars in specific traditions."
     }
   },
+
   "history": {
     "origins": {
-      "cultural_roots": "Unknown",
-      "earliest_accounts": "See README.md for historical details",
-      "folklore_connections": "Unknown"
+      "cultural_roots": "Possession beliefs are documented in many of the world's earliest religious traditions, from Mesopotamian and Egyptian texts to the Hebrew Bible and Greco-Roman sources, and from Vedic and early Daoist materials in Asia.",
+      "earliest_accounts": "Demon-driving narratives appear in Mesopotamian incantation texts and the Hebrew Bible (e.g. 1 Samuel 16, the spirit afflicting Saul). The New Testament includes multiple possession and exorcism episodes (e.g. Mark 5, the Gerasene demoniac).",
+      "folklore_connections": "Tightly interwoven with traditions of spirits, ancestors, jinn, demons, and deities; with healing and divination; and with witch-hunting and demonological literature in late-medieval and early-modern Europe."
     },
-    "timeline": []
+    "timeline": [
+      { "date": "1632", "event": "Loudun possessions begin among Ursuline nuns in France", "significance": "One of the most studied early-modern possession episodes; Urbain Grandier executed 1634", "source": "Wikipedia: Loudun possessions; de Certeau, M. (1970)" },
+      { "date": "1692", "event": "Salem witch trials in Massachusetts, fuelled in part by alleged possession of young accusers", "significance": "Foundational American case of possession framing in legal proceedings", "source": "Wikipedia: Salem witch trials" },
+      { "date": "1877", "event": "Watseka Wonder begins: Lurancy Vennum (Watseka, Illinois) reports being possessed by the deceased Mary Roff", "significance": "Classic American Spiritualist case studied by E. Winchester Stevens", "source": "Stevens, E. W. (1879), The Watseka Wonder" },
+      { "date": "1949", "event": "Roland Doe / Robbie Mannheim exorcism in Maryland and Missouri", "significance": "Inspiration for William Peter Blatty's The Exorcist (novel 1971, film 1973)", "source": "Wikipedia: Exorcism of Roland Doe" },
+      { "date": "1969", "event": "Erika Bourguignon's NIMH-supported cross-cultural survey reports possession beliefs in 74% of 488 societies", "significance": "Foundational quantitative anthropological study of possession", "source": "Bourguignon, E. (1973), Religion, Altered States of Consciousness, and Social Change" },
+      { "date": "1976-07-01", "event": "Death of Anneliese Michel in Klingenberg, Bavaria, following 67 Catholic exorcism sessions", "significance": "Two priests and the parents convicted of negligent manslaughter; inspired The Exorcism of Emily Rose (2005) and Requiem (2006)", "source": "Wikipedia: Anneliese Michel" },
+      { "date": "1980", "event": "DSM-III introduces dissociative-disorder diagnoses that overlap with possession presentations", "significance": "Formalises a clinical category alongside religious framings", "source": "American Psychiatric Association, DSM-III (1980)" },
+      { "date": "2013", "event": "DSM-5 includes possession-form presentations within dissociative identity disorder and dissociative trance disorder", "significance": "Recognises culturally framed possession states in mainstream psychiatry", "source": "American Psychiatric Association, DSM-5 (2013)" }
+    ],
+    "modern_era": "Possession remains a living religious and clinical phenomenon. The Catholic Church's revised Rite of Exorcism (De Exorcismis et Supplicationibus Quibusdam) was issued in 1999. Pentecostal and charismatic Christian movements report large numbers of deliverance ministries worldwide. In Islamic contexts, ruqya practitioners treat reported jinn possession. Across Africa and the African diaspora, possession trance remains central to religions such as Vodou, Candomblé, and Bori. In psychiatry, ICD-11 retains 'trance disorder' and 'possession trance disorder' diagnostic categories, and a substantial literature explores cultural concepts of distress."
   },
+
   "sightings": {
     "statistics": {
-      "total_documented": 0,
-      "verified": 0,
-      "disputed": 0,
-      "debunked": 0
+      "date_range": { "earliest": "Antiquity", "latest": "2026" }
     },
-    "notable": [],
+    "notable": [
+      {
+        "id": "possession-case-1632-loudun",
+        "name": "Loudun possessions",
+        "date": { "value": "1632-01-01", "precision": "approximate", "end_date": "1638-01-01" },
+        "location": {
+          "description": "Ursuline convent at Loudun, France",
+          "country": "France",
+          "region": "Vienne (Nouvelle-Aquitaine)",
+          "coordinates": { "latitude": 47.0089, "longitude": 0.0769, "precision": "approximate" }
+        },
+        "witnesses": { "types": ["Ursuline nuns", "Catholic clergy", "Royal commissioners"], "credibility_factors": ["Extensive contemporary documentation", "Subsequent historical scholarship by Michel de Certeau"] },
+        "description": "Sister Jeanne des Anges and other Ursuline nuns in the Loudun convent reported demonic possession beginning in 1632. Local priest Urbain Grandier was accused, tortured, and executed in 1634. Public exorcisms continued for years. The case is among the most extensively documented possession episodes in European history.",
+        "credibility": { "rating": "medium", "factors": ["Documented in extensive primary sources", "Politically and ecclesiastically motivated"], "notes": "Generally interpreted by modern historians in terms of political conflict, mass hysteria, and theatricalised exorcism rather than literal possession." },
+        "sources": ["de Certeau, M. (1970), La possession de Loudun", "Wikipedia: Loudun possessions"],
+        "featured": true
+      },
+      {
+        "id": "possession-case-1877-watseka-wonder",
+        "name": "The Watseka Wonder (Lurancy Vennum)",
+        "date": { "value": "1877-07-01", "precision": "approximate", "end_date": "1878-05-21" },
+        "location": {
+          "description": "Watseka, Iroquois County, Illinois",
+          "country": "United States",
+          "region": "Illinois",
+          "coordinates": { "latitude": 40.7775, "longitude": -87.7325, "precision": "approximate" }
+        },
+        "witnesses": { "types": ["Vennum and Roff families", "Dr. E. Winchester Stevens"], "credibility_factors": ["Detailed contemporary case report"] },
+        "description": "13-year-old Lurancy Vennum reportedly entered prolonged trance states in which she identified as Mary Roff, a neighbour who had died in 1865. She lived with the Roff family for several months as 'Mary' before reverting and recovering.",
+        "credibility": { "rating": "low", "factors": ["Single principal investigator (Stevens)", "Spiritualist community framing"], "notes": "A foundational case in 19th-century American Spiritualism and in later debates over dissociative disorders." },
+        "sources": ["Stevens, E. W. (1879), The Watseka Wonder", "Wikipedia: Watseka Wonder"],
+        "featured": true
+      },
+      {
+        "id": "possession-case-1949-roland-doe",
+        "name": "Roland Doe exorcism",
+        "date": { "value": "1949-01-01", "precision": "approximate" },
+        "location": {
+          "description": "Cottage City, Maryland, and St. Louis, Missouri",
+          "country": "United States",
+          "region": "Maryland and Missouri",
+          "coordinates": { "latitude": 38.9356, "longitude": -76.9469, "precision": "approximate" }
+        },
+        "witnesses": { "types": ["Catholic clergy", "Family"], "credibility_factors": ["Contemporary diary by attending priests"] },
+        "description": "A 14-year-old boy known by the pseudonyms 'Roland Doe' and 'Robbie Mannheim' was reported to have undergone Catholic exorcism in Maryland and Missouri after disturbances followed his attempts to use a Ouija board. The case became the principal inspiration for William Peter Blatty's novel The Exorcist (1971).",
+        "credibility": { "rating": "low", "factors": ["Contested by skeptics", "Family identity not publicly verified"], "notes": "Highly influential cultural case; widely cited as both supportive and skeptical literature exists." },
+        "sources": ["Wikipedia: Exorcism of Roland Doe", "Allen, T. (1993), Possessed: The True Story of an Exorcism"],
+        "featured": true
+      },
+      {
+        "id": "possession-case-1976-anneliese-michel",
+        "name": "Anneliese Michel exorcism",
+        "date": { "value": "1975-09-01", "precision": "approximate", "end_date": "1976-07-01" },
+        "location": {
+          "description": "Klingenberg am Main, Bavaria",
+          "country": "Germany",
+          "region": "Bavaria",
+          "coordinates": { "latitude": 49.7833, "longitude": 9.1833, "precision": "approximate" }
+        },
+        "witnesses": { "types": ["Roman Catholic priests", "Family"], "credibility_factors": ["Audio recordings of exorcism sessions", "Subsequent criminal trial and verdicts"] },
+        "description": "23-year-old Anneliese Michel underwent 67 Catholic exorcism sessions over roughly ten months in 1975–1976. She died on 1 July 1976 weighing approximately 30 kg. Two priests (Ernst Alt and Arnold Renz) and her parents were convicted of negligent manslaughter in 1978. Two films — The Exorcism of Emily Rose (2005) and Requiem (2006) — drew from the case.",
+        "credibility": { "rating": "high", "factors": ["Death and trial documented in German court records", "Audio recordings"], "notes": "A central modern case in debates about exorcism, mental illness (epilepsy and possible psychosis), and pastoral responsibility." },
+        "sources": ["Wikipedia: Anneliese Michel", "German court records (Aschaffenburg, 1978)"],
+        "featured": true
+      }
+    ],
     "database_path": "./sightings/"
   },
+
   "evidence": {
     "physical": [],
     "photographic": [],
     "video": [],
-    "audio": [],
-    "trace": []
+    "audio": [
+      {
+        "id": "possession-evidence-michel-tapes",
+        "type": "audio recording",
+        "name": "Anneliese Michel exorcism tapes",
+        "date": "1975–1976",
+        "description": "Audio recordings of the 67 exorcism sessions performed on Anneliese Michel.",
+        "status": "verified",
+        "analysis": "Used as evidence in the German criminal trial that convicted the priests and parents of negligent manslaughter (1978).",
+        "source": "German court records; Wikipedia: Anneliese Michel"
+      }
+    ],
+    "trace": [],
+    "documentary": [
+      {
+        "id": "possession-evidence-bourguignon-1973",
+        "type": "academic work",
+        "name": "Bourguignon cross-cultural survey",
+        "date": "1973",
+        "description": "Erika Bourguignon's survey of 488 societies, identifying possession beliefs in 74%.",
+        "status": "verified",
+        "analysis": "Foundational quantitative anthropological reference for the cross-cultural prevalence of possession beliefs.",
+        "source": "Bourguignon, E. (1973), Religion, Altered States of Consciousness, and Social Change"
+      },
+      {
+        "id": "possession-evidence-dsm5",
+        "type": "diagnostic manual",
+        "name": "DSM-5 dissociative disorders",
+        "date": "2013",
+        "description": "American Psychiatric Association DSM-5 inclusion of possession-form dissociative identity disorder and dissociative trance.",
+        "status": "verified",
+        "analysis": "Clinical recognition of culturally framed possession experiences within psychiatric nosology.",
+        "source": "American Psychiatric Association (2013)"
+      }
+    ]
   },
+
   "theories": {
-    "paranormal": [],
-    "scientific": [],
-    "skeptical": []
+    "paranormal": [
+      {
+        "name": "Demonic / spirit possession",
+        "description": "Possession is the literal takeover of a human body by a discrete supernatural agent — demon, jinn, ancestor, deity, or disembodied human soul — to be addressed through religious specialists.",
+        "proponents": ["Roman Catholic Church (Rite of Exorcism)", "Pentecostal deliverance ministries", "Many Islamic ruqya practitioners", "African and Afro-diasporic spirit traditions"],
+        "evidence_cited": ["Reported xenoglossy and clairvoyant utterances", "Aversive reactions to sacred objects", "Long historical and cross-cultural attestation"]
+      }
+    ],
+    "scientific": [
+      {
+        "name": "Dissociative trance and identity phenomena",
+        "description": "Possession experiences are dissociative states in which alternative identities or 'parts' emerge; in DSM-5 and ICD-11 these are recognised as dissociative identity disorder presentations and trance/possession trance disorders when culturally non-normative and distressing.",
+        "proponents": ["Mainstream psychiatry", "Frank Putnam", "Etzel Cardeña"],
+        "evidence_cited": ["Cross-cultural studies of dissociative phenomena", "Clinical course and response to psychotherapy"]
+      },
+      {
+        "name": "Cultural concepts of distress",
+        "description": "Possession is a culturally specific idiom for expressing distress, conflict, and trauma, especially in social contexts where direct expression is constrained.",
+        "proponents": ["Medical anthropologists (e.g. Janice Boddy on Sudanese zar)"],
+        "evidence_cited": ["Patterned demographics of possession (often women in patriarchal contexts)", "Therapeutic and social functions of possession ritual"]
+      }
+    ],
+    "skeptical": [
+      {
+        "name": "Misdiagnosis of neurological and psychiatric conditions",
+        "description": "Many possession cases plausibly involve epilepsy, schizophrenia, dissociative disorders, Tourette syndrome, or hypoglycaemia, mistaken for supernatural agency in religious frameworks.",
+        "proponents": ["Mainstream neurology and psychiatry"],
+        "evidence_cited": ["EEG findings in cases like Anneliese Michel (epilepsy diagnoses)", "Improvement on psychiatric medication"]
+      },
+      {
+        "name": "Suggestion, role enactment, and social reinforcement",
+        "description": "Possession episodes are shaped by expectation, suggestion, and role enactment within religious or ritual frameworks, with iatrogenic worsening in cases of repeated exorcism.",
+        "proponents": ["Skeptical investigators (Joe Nickell, Michael Shermer)"],
+        "evidence_cited": ["Documented worsening of cases under intensive exorcism (e.g. Anneliese Michel)", "Outbreak structure of possession panics in convents and schools"]
+      }
+    ]
   },
+
   "cultural": {
     "folklore": {
-      "traditions": [],
-      "stories": [],
-      "beliefs": "See README.md for cultural context"
+      "traditions": [
+        "Roman Catholic exorcism (Rite of Exorcism, 1614; revised 1999)",
+        "Pentecostal and charismatic deliverance ministry",
+        "Islamic ruqya and treatment of jinn possession",
+        "Jewish dybbuk traditions and exorcism",
+        "Afro-diasporic possession religions: Vodou, Candomblé, Santería",
+        "Sudanese / Horn-of-Africa zar cult",
+        "Hausa Bori spirit-possession tradition",
+        "Korean shamanic mudang possession"
+      ],
+      "stories": [
+        "Mark 5: the Gerasene demoniac",
+        "Ansky's play 'The Dybbuk' (1914)",
+        "Anneliese Michel narrative",
+        "Watseka Wonder narrative"
+      ],
+      "beliefs": "Across many traditions, possession is treated as real and consequential; responses range from ritual welcome (mediumship) through containment and accommodation to forceful expulsion (exorcism)."
+    },
+    "indigenous": {
+      "cultures": ["Hausa (Bori)", "Yoruba", "Haitian Vodou practitioners", "Tibetan oracular mediums (Nechung)", "Korean mudang", "Various Pacific Islander traditions"],
+      "significance": "In many of these traditions, possession is a positive ritual and healing resource rather than an attack; treatment as pathology has historically been a colonial imposition.",
+      "sensitivity_note": "Care should be taken not to conflate ritual mediumship with demonic possession or to treat all possession traditions through a Christian or psychiatric lens.",
+      "respect_guidelines": "Use the terminology of the tradition being described; consult community practitioners and scholars before publishing on living practices."
     },
     "popular_culture": {
-      "literature": [],
-      "film_tv": [],
+      "literature": [
+        "The Exorcist — William Peter Blatty (1971)",
+        "Possessed: The True Story of an Exorcism — Thomas B. Allen (1993)",
+        "Religion, Altered States of Consciousness, and Social Change — Erika Bourguignon (1973)",
+        "Wombs and Alien Spirits: Women, Men, and the Zar Cult in Northern Sudan — Janice Boddy (1989)"
+      ],
+      "film_tv": [
+        "The Exorcist (1973)",
+        "The Exorcism of Emily Rose (2005)",
+        "Requiem (2006)",
+        "The Rite (2011)",
+        "The Conjuring franchise (2013–)"
+      ],
       "games": [],
-      "other": []
+      "music": [],
+      "other": [
+        "Major influence on horror, supernatural fiction, and theological discourse",
+        "Subject of recurring documentaries by BBC, National Geographic, and others"
+      ]
     }
   },
+
   "research": {
-    "researchers": [],
-    "organizations": [],
-    "ongoing_studies": "None documented"
+    "researchers": [
+      { "name": "Dr. Erika Bourguignon", "affiliation": "Ohio State University (anthropology)", "contribution": "Cross-cultural survey of possession beliefs (1969 / 1973)", "period": "1960s–2000s" },
+      { "name": "Dr. Janice Boddy", "affiliation": "University of Toronto (anthropology)", "contribution": "Ethnography of zar possession in Sudan (1989)", "period": "1980s–present" },
+      { "name": "Dr. Etzel Cardeña", "affiliation": "Lund University (psychology)", "contribution": "Research on dissociation, hypnosis, and possession trance", "period": "1990s–present" },
+      { "name": "Father Gabriele Amorth", "affiliation": "Diocese of Rome / International Association of Exorcists", "contribution": "Long-time chief exorcist of the Diocese of Rome; popular and controversial author on Catholic exorcism", "period": "1986–2016" }
+    ],
+    "organizations": [
+      { "name": "International Association of Exorcists", "url": "https://www.aieinternational.org", "focus": "Catholic exorcism training and coordination" },
+      { "name": "International Society for the Study of Trauma and Dissociation", "url": "https://www.isst-d.org", "focus": "Clinical research on dissociative phenomena, including possession-form presentations" }
+    ],
+    "ongoing_studies": "Ongoing clinical research on dissociative trance and possession-form DID; medical-anthropological work on cultural concepts of distress; theological and pastoral studies on contemporary exorcism practice."
   },
-  "sources": []
+
+  "sources": [
+    { "id": "wikipedia-spirit-possession", "type": "website", "title": "Spirit possession", "publication": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Spirit_possession", "accessed": "2026-05-07" },
+    { "id": "wikipedia-exorcism", "type": "website", "title": "Exorcism", "publication": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Exorcism", "accessed": "2026-05-07" },
+    { "id": "bourguignon-1973", "type": "book", "title": "Religion, Altered States of Consciousness, and Social Change", "authors": ["Erika Bourguignon"], "publication": "Ohio State University Press", "date": "1973" },
+    { "id": "boddy-1989", "type": "book", "title": "Wombs and Alien Spirits: Women, Men, and the Zar Cult in Northern Sudan", "authors": ["Janice Boddy"], "publication": "University of Wisconsin Press", "date": "1989", "isbn": "978-0299123147" },
+    { "id": "blatty-1971", "type": "book", "title": "The Exorcist", "authors": ["William Peter Blatty"], "publication": "Harper & Row", "date": "1971", "isbn": "978-0061007224" },
+    { "id": "allen-1993", "type": "book", "title": "Possessed: The True Story of an Exorcism", "authors": ["Thomas B. Allen"], "publication": "Doubleday", "date": "1993", "isbn": "978-0595126859" },
+    { "id": "decerteau-1970", "type": "book", "title": "La possession de Loudun", "authors": ["Michel de Certeau"], "publication": "Julliard", "date": "1970" },
+    { "id": "stevens-1879", "type": "book", "title": "The Watseka Wonder", "authors": ["E. W. Stevens"], "publication": "Religio-Philosophical Publishing House", "date": "1879" },
+    { "id": "dsm5", "type": "book", "title": "Diagnostic and Statistical Manual of Mental Disorders, Fifth Edition (DSM-5)", "authors": ["American Psychiatric Association"], "publication": "American Psychiatric Publishing", "date": "2013", "isbn": "978-0890425558" },
+    { "id": "rite-of-exorcism-1999", "type": "book", "title": "De Exorcismis et Supplicationibus Quibusdam", "authors": ["Congregation for Divine Worship"], "publication": "Libreria Editrice Vaticana", "date": "1999" }
+  ]
 }

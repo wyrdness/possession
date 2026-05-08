@@ -1,424 +1,240 @@
 # Possession
 
-> *"The mind is its own place, and in itself can make a heaven of hell, a hell of heaven."* — John Milton
+> Possession is the cross-cultural belief and reported experience that a human body and its functions can be controlled by an external agent — a spirit, ghost, demon, deity, or ancestor — producing dramatic changes in voice, behavior, language, and apparent identity. It is documented in 74% of 488 societies surveyed in a 1969 NIMH cross-cultural study.
 
-[![API Version](https://img.shields.io/badge/api-v1.0.0-blue)]()
-[![Last Updated](https://img.shields.io/badge/updated-2026--01--14-green)]()
-[![Status](https://img.shields.io/badge/status-active-brightgreen)]()
-[![Cultural Sensitivity](https://img.shields.io/badge/cultural-sensitivity-important-red)]()
+[![API Version](https://img.shields.io/badge/api-v1.1.0-blue)]() [![Last Updated](https://img.shields.io/badge/updated-2026-05-07-green)]() [![Sightings](https://img.shields.io/badge/sightings-0-orange)]() ![Status](https://img.shields.io/badge/status-active-blue)
 
 ---
-
 ## Quick Reference
 
 | Property | Value |
-|----------|-------|
+|---|---|
 | **ID** | `possession` |
 | **Category** | PSYCHIC_PHENOMENA |
-| **Classification** | Spirit/Demon Interaction |
-| **First Recorded** | Ancient (worldwide) |
-| **Status** | Active (religious belief + medical understanding) |
+| **Subcategory** | Altered state of consciousness attributed to external agency |
+| **First recorded** | 1632 |
+| **Primary range** | Beliefs in and reports of possession are found in the great majority of human societies |
+| **Status** | active |
 
 ---
-
-## ⚠️ Cultural Sensitivity Notice
-
-**Possession is an active religious belief in multiple traditions worldwide.** This documentation presents both religious/cultural perspectives and scientific/medical understanding. Approach this topic with respect for sincere beliefs while acknowledging psychiatric explanations for symptoms.
-
-**Medical Note**: Individuals experiencing possession symptoms should receive psychiatric evaluation and appropriate medical care.
-
----
-
 ## Overview
 
-Possession is the belief that spirits, demons, or other entities can inhabit and control human bodies. Manifestations include dramatic personality changes, speaking unknown languages (glossolalia), superhuman strength, knowledge of hidden things, convulsions, and aversion to sacred objects.
-
-**Types vary by culture**:
-- **Demonic possession** (Christian) — Involuntary, evil
-- **Spirit possession** (various cultures) — Ancestors, nature spirits, etc.
-- **Voluntary possession** (shamanic, Vodou) — Intentional for ritual purposes
-- **Jinn possession** (Islamic) — Supernatural beings
-
-Famous cases include **Anneliese Michel** (1976, died during exorcism) and **Roland Doe** (1949, inspired *The Exorcist*).
-
-**Scientific consensus**: Symptoms are explained by psychiatric conditions (dissociative identity disorder, schizophrenia, epilepsy) and cultural syndrome. Religious traditions continue exorcism practices.
+Possession is an altered state of consciousness, and the associated behaviors, that practitioners and witnesses attribute to the takeover of a human body by spirits, ghosts, demons, deities, or ancestors. Anthropologist Erika Bourguignon's landmark 1969 NIMH-supported cross-cultural survey identified beliefs in possession in 74% of 488 societies sampled, with the highest prevalence in the Pacific and the lowest among Native American societies. Traditions vary widely: in many African, Afro-diasporic, Hindu, and Pacific contexts possession is sought, ritualized, and integrated with healing or worship; in Christianity and much of Islam it is regarded as an unwanted attack to be addressed through exorcism; in the Jewish kabbalistic tradition the dybbuk is a disembodied soul to be expelled. Notable cases include the witch trials at Loudun (1632–1638), the Salem witch trials (1692), the Watseka Wonder (Lurancy Vennum, 1877–1878), the Roland Doe case (1949) that inspired The Exorcist, and the death of Anneliese Michel (1976) following a Catholic exorcism. Modern psychiatric frameworks classify many possession experiences under the dissociative disorders: the DSM-5 includes 'dissociative trance' and 'possession-form dissociative identity disorder' presentations, while the ICD treats possession trance as a distinct diagnosis when culturally non-normative and distressing.
 
 ---
+## Names & Aliases
 
-## Etymology & Names
+| Name | Origin | Meaning |
+|---|---|---|
+| Spirit possession | English |  |
+| Demonic possession | English | Possession by a malevolent spirit, in Christian and Islamic frameworks |
+| Dybbuk possession | Yiddish/Hebrew / Jewish tradition | Possession by a disembodied human soul |
+| Jinn possession (mass al-jinn) | Arabic / Islamic world |  |
+| Trance possession / spirit mediumship | African and Afro-diasporic traditions |  |
 
-### Primary Name
-- **Possession** — From Latin *possessio* meaning "to occupy or hold"
+## Etymology
 
-### Alternative Names by Tradition
-
-| Name | Tradition | Meaning |
-|------|-----------|---------|
-| Demonic Possession | Christian | Possession by demons/evil spirits |
-| Spirit Possession | Various | General possession by spirits |
-| Jinn Possession | Islamic | Possession by jinn |
-
----
-
-## Classification
-
-### Taxonomy
-```
-Category: PSYCHIC_PHENOMENA
-├── Type: Spirit/Demon Interaction
-├── Subtype: Involuntary/Voluntary (varies)
-└── Variant: Cultural-specific manifestations
-```
-
-### Related Phenomena
-
-| Phenomenon | Relationship | Description |
-|------------|--------------|-------------|
-| [Demons](/demons) | Claimed cause | Entities allegedly causing possession |
-| [Exorcism](/exorcism) | Treatment | Religious ritual to expel entities |
-| [Succubus/Incubus](/succubus-incubus) | Related | Demonic entities interacting with humans |
+- **Origin**: Latin possessio ('a holding, occupation') via Anglo-Norman; in religious contexts 'possession' translates a range of vernacular and scriptural terms (Greek daimonizesthai 'to be demonized', Hebrew dybbuk 'attachment', Arabic mass al-jinn 'touching of jinn').
+- **Meaning**: A holding, occupation, or control of a person by an outside agent
+- **First use**: Medieval Latin Christian usage; English religious texts from the 14th century onwards
 
 ---
+## Related Phenomena
 
-## Symptoms & Characteristics
-
-### Common Symptoms
-
-| Symptom | Description | Frequency | Medical Correlation |
-|---------|-------------|-----------|---------------------|
-| **Personality change** | Dramatic shift in behavior, voice, mannerisms | Very common | DID, psychosis |
-| **Glossolalia** | Speaking in tongues/unknown languages | Common | Known psychological phenomenon |
-| **Superhuman strength** | Claimed increased physical power | Common (reported) | Adrenaline, exaggeration |
-| **Sacred object aversion** | Negative reaction to religious symbols | Common (religious) | Learned behavior, suggestion |
-| **Hidden knowledge** | Claiming unknown information | Occasional | Cold reading, lucky guesses |
-| **Convulsions** | Seizure-like movements | Common | Epilepsy, psychogenic seizures |
-| **Self-harm** | Injuring oneself | Occasional | Self-injurious behavior (mental illness) |
-| **Blasphemy** | Speaking against religious figures | Common (religious) | Psychological resistance |
+- [Exorcism](../exorcism/) — _related_: Ritual response to possession across multiple religious traditions
+- [Spirit mediumship](../spirit-mediumship/) — _similar_: Voluntary, ritually framed possession in Spiritualist, Afro-diasporic, and other contexts
+- [Dissociative identity disorder](../dissociative-identity-disorder/) — _related_: Psychiatric framework that overlaps with possession-form presentations
+- [Jinn](../jinn/) — _related_: Islamic spirit category implicated in possession (mass al-jinn)
+- [Dybbuk](../dybbuk/) — _subset_: Possession by a disembodied human soul in Jewish tradition
 
 ---
+## Physical Description
 
-## Types of Possession by Culture
+- **Morphology**: Possession is a behavioral and experiential phenomenon; the host body remains anatomically unchanged, but motor, vocal, and personality presentations alter dramatically during episodes.
 
-### 1. Demonic Possession (Christian)
+### Features
 
-**Description**: Involuntary possession by demons; considered evil
+| Feature | Description | Frequency |
+|---|---|---|
+| Altered voice | Voice changes in pitch, accent, or language during episodes | common |
+| Convulsive or rigid motor activity | Reports of writhing, contortion, or extreme rigidity during possession states | common |
+| Apparent xenoglossy | Speaking in a language the host has not learned (claimed in many traditions; rarely substantiated under controlled conditions) | occasional |
+| Anomalous strength or insensitivity to pain | Reports of strength or pain tolerance beyond the host's baseline | occasional |
 
-**Cultural Context**: Christianity (particularly Catholic)
+## Reported Abilities
 
-**Treatment**: Exorcism by authorized religious figure
+| Ability | Description | Frequency | Evidence |
+|---|---|---|---|
+| Personality switching | Emergence of a distinct identity claiming to be the possessing agent | always | documented |
+| Glossolalia / xenoglossy claims | Speech in apparently unknown or unintelligible languages | occasional | reported |
+| Prophetic or oracular utterance | In ritual mediumship, the possessing entity is consulted for guidance | common | folklore |
+| Reaction to sacred objects | In demonic-possession framings, aversive reaction to crosses, holy water, or Qur'anic recitation | common | folklore |
 
-**Characteristics**:
-- Aversion to holy objects
-- Blasphemy
-- Supernatural knowledge
-- Physical manifestations
+## Behavior
 
----
-
-### 2. Spirit Possession (Various Cultures)
-
-**Description**: Various spirits (ancestors, nature spirits) possess individuals
-
-**Cultural Context**: Worldwide traditional beliefs
-
-**Treatment**: Varies by culture; rituals, offerings, shamanic intervention
-
-**Characteristics**: Highly variable depending on cultural context
-
----
-
-### 3. Voluntary Possession (Shamanic/Vodou)
-
-**Description**: Intentional possession by spirits for healing, prophecy, ritual
-
-**Cultural Context**: Shamanic traditions, Vodou, Umbanda, others
-
-**Treatment**: Not needed; possession is controlled and ends naturally
-
-**Characteristics**:
-- Ritualistic setting
-- Practitioner control
-- Temporary and purposeful
-- Culturally valued practice
+- **Activity**: variable
+- **Disposition**: variable
+- **Social structure**: variable
+- **Habitat**: ritual contexts, domestic settings, shrines and temples, religious institutions
+- **Diet**: Not applicable
 
 ---
+## Distribution
 
-### 4. Jinn Possession (Islamic)
+Beliefs in and reports of possession are found in the great majority of human societies. Bourguignon's 1969 cross-cultural survey identified some form of possession belief in 74% of 488 societies, with highest prevalence in the Pacific and lowest among Native American societies.
 
-**Description**: Possession by jinn (supernatural beings in Islamic tradition)
-
-**Cultural Context**: Islamic cultures
-
-**Treatment**: Ruqya (Islamic exorcism using Qur'an recitation)
-
-**Characteristics**: Similar to demonic possession but within Islamic framework
 
 ---
-
-## Cultural Variations
-
-| Culture | Belief | Prevalence | Treatment |
-|---------|--------|-----------|-----------|
-| Christian (Catholic) | Demonic possession requiring exorcism | Rare official cases | Authorized exorcism |
-| Islamic | Jinn possession | Common in some regions | Ruqya ritual |
-| Hindu | Bhuta or graha possession | Varies by region | Various rituals |
-| Vodou/Vodun | Loa mounting practitioners | Regular ritual practice | Not needed (voluntary) |
-| African traditions | Ancestor/spirit possession | Culturally integrated | Varies |
-
----
-
 ## Historical Timeline
 
-### Key Events
-
 | Date | Event | Significance |
-|------|-------|--------------|
-| Ancient | Biblical exorcisms by Jesus | Foundational Christian accounts |
-| 1614 | Roman Ritual codified | Catholic Church formalizes exorcism |
-| 1949 | Roland Doe case | Inspired *The Exorcist* |
-| 1973 | *The Exorcist* film released | Massive cultural impact, increased reports |
-| 1975-1976 | Anneliese Michel case | Died during exorcism; criminal trial |
-| 1999 | Vatican updates exorcism ritual | Revises procedures, maintains practice |
+|---|---|---|
+| 1632 | Loudun possessions begin among Ursuline nuns in France | One of the most studied early-modern possession episodes; Urbain Grandier executed 1634 |
+| 1692 | Salem witch trials in Massachusetts, fuelled in part by alleged possession of young accusers | Foundational American case of possession framing in legal proceedings |
+| 1877 | Watseka Wonder begins: Lurancy Vennum (Watseka, Illinois) reports being possessed by the deceased Mary Roff | Classic American Spiritualist case studied by E. Winchester Stevens |
+| 1949 | Roland Doe / Robbie Mannheim exorcism in Maryland and Missouri | Inspiration for William Peter Blatty's The Exorcist (novel 1971, film 1973) |
+| 1969 | Erika Bourguignon's NIMH-supported cross-cultural survey reports possession beliefs in 74% of 488 societies | Foundational quantitative anthropological study of possession |
+| 1976-07-01 | Death of Anneliese Michel in Klingenberg, Bavaria, following 67 Catholic exorcism sessions | Two priests and the parents convicted of negligent manslaughter; inspired The Exorcism of Emily Rose (2005) and Requiem (2006) |
+| 1980 | DSM-III introduces dissociative-disorder diagnoses that overlap with possession presentations | Formalises a clinical category alongside religious framings |
+| 2013 | DSM-5 includes possession-form presentations within dissociative identity disorder and dissociative trance disorder | Recognises culturally framed possession states in mainstream psychiatry |
+
+---
+## Notable Sightings
+
+### Loudun possessions ⭐
+> **Date**: 1632-01-01  
+> **Location**: Ursuline convent at Loudun, France  
+Sister Jeanne des Anges and other Ursuline nuns in the Loudun convent reported demonic possession beginning in 1632. Local priest Urbain Grandier was accused, tortured, and executed in 1634. Public exorcisms continued for years. The case is among the most extensively documented possession episodes in European history.
+**Credibility**: medium — Generally interpreted by modern historians in terms of political conflict, mass hysteria, and theatricalised exorcism rather than literal possession.
+**Sources**: de Certeau, M. (1970), La possession de Loudun; Wikipedia: Loudun possessions
 
 ---
 
-## Famous Cases
-
-### Anneliese Michel (1975-1976) ⚠️
-
-> **Date**: 1975-1976
-> **Location**: Klingenberg, Bavaria, Germany
-> **Outcome**: Death; criminal convictions
-
-**Background**: German woman underwent 67 exorcism sessions over 10 months
-
-**Medical History**: Diagnosed with epilepsy and psychiatric conditions
-
-**What Happened**:
-- Ceased medical treatment
-- Underwent repeated exorcisms
-- Died of malnutrition and dehydration
-- Priests and parents charged with negligent homicide
-
-**Significance**: **Demonstrates the danger of treating psychiatric conditions as possession**
-
-**Credibility Assessment**: Tragic case — Medical diagnosis ignored, death during exorcism, criminal convictions followed
-
-**Sources**: Court records, Goodman (2005) *The Exorcism of Anneliese Michel*
+### The Watseka Wonder (Lurancy Vennum) ⭐
+> **Date**: 1877-07-01  
+> **Location**: Watseka, Iroquois County, Illinois  
+13-year-old Lurancy Vennum reportedly entered prolonged trance states in which she identified as Mary Roff, a neighbour who had died in 1865. She lived with the Roff family for several months as 'Mary' before reverting and recovering.
+**Credibility**: low — A foundational case in 19th-century American Spiritualism and in later debates over dissociative disorders.
+**Sources**: Stevens, E. W. (1879), The Watseka Wonder; Wikipedia: Watseka Wonder
 
 ---
 
-### Roland Doe (1949) 📖
-
-> **Date**: 1949
-> **Location**: St. Louis area, Missouri, United States
-> **Outcome**: Claimed successful exorcism
-
-**Background**: 14-year-old boy allegedly possessed; underwent Catholic exorcism
-
-**Significance**: Inspired William Peter Blatty's novel *The Exorcist* (1971)
-
-**Later Investigation**: Skeptical investigations suggest psychiatric issues and possible hoax elements
-
-**Outcome**: Individual lived normal life after alleged exorcism
-
-**Credibility Assessment**: Disputed — Later skeptical investigation, possible hoax elements, psychiatric explanations available
-
-**Cultural Impact**: Enormous, despite questionable details
+### Roland Doe exorcism ⭐
+> **Date**: 1949-01-01  
+> **Location**: Cottage City, Maryland, and St. Louis, Missouri  
+A 14-year-old boy known by the pseudonyms 'Roland Doe' and 'Robbie Mannheim' was reported to have undergone Catholic exorcism in Maryland and Missouri after disturbances followed his attempts to use a Ouija board. The case became the principal inspiration for William Peter Blatty's novel The Exorcist (1971).
+**Credibility**: low — Highly influential cultural case; widely cited as both supportive and skeptical literature exists.
+**Sources**: Wikipedia: Exorcism of Roland Doe; Allen, T. (1993), Possessed: The True Story of an Exorcism
 
 ---
 
-## Scientific & Medical Perspective
-
-### Psychiatric Explanations
-
-#### 1. Dissociative Identity Disorder (DID)
-Multiple personality states; alters may be perceived as possessing entities
-
-**Evidence**:
-- Clinical diagnosis
-- Response to psychotherapy
-- Correlation with trauma history
+### Anneliese Michel exorcism ⭐
+> **Date**: 1975-09-01  
+> **Location**: Klingenberg am Main, Bavaria  
+23-year-old Anneliese Michel underwent 67 Catholic exorcism sessions over roughly ten months in 1975–1976. She died on 1 July 1976 weighing approximately 30 kg. Two priests (Ernst Alt and Arnold Renz) and her parents were convicted of negligent manslaughter in 1978. Two films — The Exorcism of Emily Rose (2005) and Requiem (2006) — drew from the case.
+**Credibility**: high — A central modern case in debates about exorcism, mental illness (epilepsy and possible psychosis), and pastoral responsibility.
+**Sources**: Wikipedia: Anneliese Michel; German court records (Aschaffenburg, 1978)
 
 ---
 
-#### 2. Schizophrenia and Psychotic Disorders
-Hallucinations and delusions interpreted as possession
 
-**Evidence**:
-- Response to antipsychotic medication
-- Brain imaging studies
-- Genetic factors
+## Evidence
 
----
+### Audio
 
-#### 3. Temporal Lobe Epilepsy
-Seizures causing altered consciousness, personality changes, religious experiences
+| Name | Date | Description | Status |
+|---|---|---|---|
+| Anneliese Michel exorcism tapes | 1975–1976 | Audio recordings of the 67 exorcism sessions performed on Anneliese Michel. | verified |
+### Documentary
 
-**Evidence**:
-- EEG abnormalities
-- Response to anticonvulsants
-- Known symptoms match possession descriptions
+| Name | Date | Description | Status |
+|---|---|---|---|
+| Bourguignon cross-cultural survey | 1973 | Erika Bourguignon's survey of 488 societies, identifying possession beliefs in 74%. | verified |
+| DSM-5 dissociative disorders | 2013 | American Psychiatric Association DSM-5 inclusion of possession-form dissociative identity disorder and dissociative trance. | verified |
 
 ---
+## Theories & Explanations
 
-#### 4. Cultural Syndrome
-Culture-bound syndrome; symptoms shaped by cultural expectations
+### Paranormal / Cryptozoological
 
-**Evidence**:
-- Symptoms vary by culture
-- Higher prevalence in cultures with possession beliefs
-- Social context shapes manifestation
+**Demonic / spirit possession** _(Roman Catholic Church (Rite of Exorcism), Pentecostal deliverance ministries, Many Islamic ruqya practitioners, African and Afro-diasporic spirit traditions)_
 
----
+Possession is the literal takeover of a human body by a discrete supernatural agent — demon, jinn, ancestor, deity, or disembodied human soul — to be addressed through religious specialists.
 
-#### 5. Suggestion and Social Contagion
-Symptoms from suggestion, expectation, social influence
+### Scientific
 
-**Evidence**:
-- Possession epidemics documented
-- Symptoms match cultural expectations
-- Power of suggestion well-established
+**Dissociative trance and identity phenomena** _(Mainstream psychiatry, Frank Putnam, Etzel Cardeña)_
 
----
+Possession experiences are dissociative states in which alternative identities or 'parts' emerge; in DSM-5 and ICD-11 these are recognised as dissociative identity disorder presentations and trance/possession trance disorders when culturally non-normative and distressing.
 
-### Medical Diagnosis Found in "Possession" Cases
+**Cultural concepts of distress** _(Medical anthropologists (e.g. Janice Boddy on Sudanese zar))_
 
-- **Dissociative Identity Disorder (DID)**
-- **Schizophrenia**
-- **Epilepsy** (particularly temporal lobe)
-- **Psychogenic non-epileptic seizures**
-- **Tourette syndrome**
-- **Bipolar disorder with psychotic features**
+Possession is a culturally specific idiom for expressing distress, conflict, and trauma, especially in social contexts where direct expression is constrained.
 
----
+### Skeptical
 
-## Religious Perspectives
+**Misdiagnosis of neurological and psychiatric conditions** _(Mainstream neurology and psychiatry)_
 
-### Catholic Christianity
+Many possession cases plausibly involve epilepsy, schizophrenia, dissociative disorders, Tourette syndrome, or hypoglycaemia, mistaken for supernatural agency in religious frameworks.
 
-**Procedure**: Exorcism by authorized priest with bishop permission
+**Suggestion, role enactment, and social reinforcement** _(Skeptical investigators (Joe Nickell, Michael Shermer))_
 
-**Requirements**:
-1. Psychiatric evaluation first
-2. Evidence of genuine possession (not mental illness)
-3. Bishop authorization
+Possession episodes are shaped by expectation, suggestion, and role enactment within religious or ritual frameworks, with iatrogenic worsening in cases of repeated exorcism.
 
-**Current Status**: Church continues to train exorcists; maintains practice
 
----
+## Indigenous Perspectives
 
-### Islam
+> ⚠️ **Care should be taken not to conflate ritual mediumship with demonic possession or to treat all possession traditions through a Christian or psychiatric lens.**
 
-**Procedure**: Ruqya (recitation of Qur'an, prayers)
+**Cultures**: Hausa (Bori), Yoruba, Haitian Vodou practitioners, Tibetan oracular mediums (Nechung), Korean mudang, Various Pacific Islander traditions
 
-**Performed by**: Knowledgeable person in Islamic tradition
+In many of these traditions, possession is a positive ritual and healing resource rather than an attack; treatment as pathology has historically been a colonial imposition.
 
-**Current Status**: Widely practiced in Islamic cultures
+_Guidelines: Use the terminology of the tradition being described; consult community practitioners and scholars before publishing on living practices._
+
+## Popular Culture
+
+**Literature**: The Exorcist — William Peter Blatty (1971); Possessed: The True Story of an Exorcism — Thomas B. Allen (1993); Religion, Altered States of Consciousness, and Social Change — Erika Bourguignon (1973); Wombs and Alien Spirits: Women, Men, and the Zar Cult in Northern Sudan — Janice Boddy (1989)
+
+**Film / TV**: The Exorcist (1973); The Exorcism of Emily Rose (2005); Requiem (2006); The Rite (2011); The Conjuring franchise (2013–)
+
+**Other**: Major influence on horror, supernatural fiction, and theological discourse; Subject of recurring documentaries by BBC, National Geographic, and others
 
 ---
+## Research
 
-### Vodou/Vodun
+### Researchers
 
-**View**: Voluntary possession (loa mounting practitioners) is normal ritual practice
+| Name | Affiliation | Contribution | Period |
+|---|---|---|---|
+| Dr. Erika Bourguignon | Ohio State University (anthropology) | Cross-cultural survey of possession beliefs (1969 / 1973) | 1960s–2000s |
+| Dr. Janice Boddy | University of Toronto (anthropology) | Ethnography of zar possession in Sudan (1989) | 1980s–present |
+| Dr. Etzel Cardeña | Lund University (psychology) | Research on dissociation, hypnosis, and possession trance | 1990s–present |
+| Father Gabriele Amorth | Diocese of Rome / International Association of Exorcists | Long-time chief exorcist of the Diocese of Rome; popular and controversial author on Catholic exorcism | 1986–2016 |
 
-**Context**: Central to religious practice; controlled and temporary
+### Organizations
 
-**Status**: Culturally valued practice
+- [International Association of Exorcists](https://www.aieinternational.org) — Catholic exorcism training and coordination
+- [International Society for the Study of Trauma and Dissociation](https://www.isst-d.org) — Clinical research on dissociative phenomena, including possession-form presentations
 
----
-
-## Dangers of Exorcism
-
-### Documented Risks
-
-⚠️ **Deaths during exorcisms**: Anneliese Michel and others
-
-⚠️ **Delayed medical treatment**: Psychiatric conditions untreated
-
-⚠️ **Physical harm**: Restraint, abuse, neglect during rituals
-
-⚠️ **Psychological harm**: Reinforcing possession belief can worsen mental health
-
-### Modern Church Position (Catholic)
-
-- Psychiatric evaluation **required first**
-- Genuine possession considered **extremely rare**
-- Cautious approach
-- Medical treatment not excluded
+Ongoing clinical research on dissociative trance and possession-form DID; medical-anthropological work on cultural concepts of distress; theological and pastoral studies on contemporary exorcism practice.
 
 ---
+## Sources
 
-## Popular Culture Impact
+See [SOURCES.md](SOURCES.md) for the complete bibliography.
 
-### Major Films
 
-- **The Exorcist** (1973) — Landmark horror film; massive cultural impact
-- **The Exorcism of Emily Rose** (2005) — Based on Anneliese Michel
-- **The Conjuring series** (2013-present) — Multiple possession cases
-- **Supernatural** TV series — Frequent possession themes
+## How to Report a Sighting
 
-### Cultural Impact
-
-Films have significantly influenced public perception and **increased possession reports** following major releases
+1. **GitHub Issue**: [Submit Sighting Report](../../issues/new?template=sighting_report.yml)
+2. Provide date, location, witnesses, description, conditions, and any evidence.
 
 ---
-
-## Cultural Competence in Mental Health
-
-### Best Practices
-
-1. **Respect cultural beliefs** while providing medical care
-2. **Psychiatric evaluation** for all cases
-3. **Cultural sensitivity** in treatment approach
-4. **Collaboration** between medical and religious communities when appropriate
-5. **Education** about psychiatric conditions in culturally appropriate ways
-
----
-
-## Sources & References
-
-See [SOURCES.md](SOURCES.md) for complete bibliography.
-
-### Key Sources
-
-- Goodman, F. (2005). *The Exorcism of Anneliese Michel*. Wipf & Stock.
-- Bourguignon, E. (1976). *Possession*. Chandler & Sharp.
-- Blatty, W.P. (1971). *The Exorcist*. Harper & Row.
-
----
-
-## API Reference
-
-Machine-readable data is available in [`api.json`](api.json).
-
-### Direct Access
-
-```
-Raw JSON: https://raw.githubusercontent.com/wyrdness/possession/main/api.json
-```
-
----
-
-## Changelog
-
-| Version | Date | Changes |
-|---------|------|---------|
-| 1.0.0 | 2026-01-14 | Initial release |
-
----
-
 ## License
 
-- **Content**: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
-- **Data**: [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/)
+Content: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)  
+Data: [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/)  
 
 ---
-
-<div align="center">
-
-*Part of the [Wyrdness](https://github.com/wyrdness) Paranormal Archive*
-
-[Suggest Correction](../../issues/new?template=correction.yml) • [Full API](api.json)
-
-</div>
+_Auto-generated from `api.json`. Do not edit by hand — edit `api.json` and run `make repo-docs`._
